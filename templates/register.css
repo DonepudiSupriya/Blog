@@ -1,0 +1,25 @@
+h1{
+    color:red;
+    text-align:center;
+    font-size:50px;
+    font-style: italic;
+}
+label{
+    color:navy;
+    font-size:40px;
+    font-style: oblique;
+}
+button{
+    background-color:darkturquoise;
+    color:darkgreen;
+    size: 100px;
+    width:100px;
+}
+body{
+    background-image: url("https://png.pngtree.com/background/20220720/original/pngtree-rapid-development-of-scientific-and-technological-data-picture-image_1678205.jpg");
+    background-size: cover;
+
+}
+button{
+    size:100px;
+}

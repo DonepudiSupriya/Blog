@@ -1,0 +1,28 @@
+{% extends 'homepage.html' %}
+{% block content %}
+<style>
+  body{
+    background-image: url("https://www.regentway.in/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/c/n/cna345262217_1.jpg");
+    background-size: cover;
+  }
+</style>
+<form method="POST">
+    <div class="mb-3">
+
+      <label for="exampleInputEmail1" class="form-label">Title</label>
+      <input type="text" class="form-text" name="title" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="text" class="form-text">We'll never share your Title with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Content</label>
+      <input type="text" class="form-control" name="content" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Slug</label>
+        <input type="text" class="form-control" name="slug" id="exampleInputPassword1">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  {% endblock %}
+
